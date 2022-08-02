@@ -1,0 +1,15 @@
+$primary: orange;
+$dark: rgba(6, 70, 90, 0.801);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$mgb: (
+  "btnAdd": blue,
+  "btnSave": green,
+  "btnEdit": cyan,
+);
+
+$theme-colors: map-merge($mgb, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
